@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include "OPERACIONES_H"
+int main()
+{
+    int resultadoSuma = sumar(10, 5);
+    int area = calcularAreaCuadrado();
+    
+    int misDatos [3] = {10, 20, 30}
+    
+    printf("La suma es %d\n", resultadoSuma);
+    printf("El  area del cuadrado es; %d\n", area);
+    
+    printf("mostrando vector usando la libreria:\n");
+    mostrarVector(misDatos, 3);
+
+    return 0;
+}
